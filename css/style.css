@@ -1,16 +1,58 @@
-#navbarNav:last-child{
-    margin-right: 10em;
+*{
+    font-family: 'Raleway', sans-serif;
 }
 
-.navbar{
+/* Styles for navbar */
+
+ .navbar{
     background-color: #444;
 }
 
-.navbar .navbar-brand, .navbar-nav .nav-item .nav-link{
-    color: #c2c2c2;
+.navbar-brand{
+    margin-left:10em;
+}
+
+#navbarNav:last-child{
+    margin-right: 10em;
 }
 
 .navbar-toggler{
     background-color: #c2c2c2;
 }
 
+.navbar .navbar-brand, .navbar-nav .nav-item .nav-link{
+    color: #c2c2c2;
+}
+
+/* Section Form */
+.form{
+    background-image: url('../img/form-background.jpg');
+    background-size: cover;
+    color: #fff;
+}
+
+.myrow{
+    padding-top: 5em; 
+    border: 1px solid red;
+}
+
+.nextrow{
+    padding-top: 0.75em;
+    background-color: rgba(0, 0, 0, 0.35);
+}
+
+.content-holder{
+    padding: 100px 80px 50px 50px;
+}
+.fas{
+    font-size: 3em;
+}
+
+.formBody{
+    padding-top: 1em;
+}
+
+.message{
+    width: 100%;
+    border-radius: 2%;
+}
