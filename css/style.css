@@ -30,7 +30,7 @@
     background-image: url('../img/form-background.jpg');
     background-size: cover;
     color: #fff;
-    padding-top: 5em; 
+    padding: 5em 0em; 
 }
 
 .formHeader{
@@ -44,10 +44,12 @@
 
 .formHeaderP{
     font-size: 1em;
+    color: #c2c2c2;
 }
 
 .iconForm{
     font-size: 3em;
+    color: #c2c2c2;
 }
 
 .formBody{
@@ -66,12 +68,18 @@
     color: #fff;
 }
 
-.spanAgreement{
+.agreementP{
+    font-size: 0.83em;
+    color: #c2c2c2;
+}
+
+.agreementSpan{
     color: #e38f42;
+    font-size: 0.83em;
 }
 
 .content-holder{
-    padding: 150px 0px 50px 0px;
+    padding: 8.3em 0em 2.75em 0em;
 }
 
 .inscriptionH1{
@@ -86,6 +94,7 @@
 }
 
 .btnTransparent{
+    margin-left: 0.5em;
     background-color: rgba(0, 0, 0, 0.35);
     color: #fff;
 }
@@ -97,3 +106,39 @@
     margin-left: 0.1em; 
 }
 
+/* Section Inspire */
+
+.inspire{
+    padding: 5em 0em;
+}
+
+.inspirePost{
+    padding-left: 2em;
+}
+
+.inspireH1{
+    font-size: 2em;
+}
+
+.inspireP{
+    color: #888;
+}
+
+.linkOrange{
+    color: #e38f42;
+}
+
+/* Footer */
+
+footer{
+    padding: 5em 0em;
+    background-color: #f8f8f8;
+}
+
+.footerH1{
+    font-size: 2em;
+}
+
+.footerP{
+    color: #888;
+}
