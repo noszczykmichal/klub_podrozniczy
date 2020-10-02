@@ -1,20 +1,12 @@
 *{
     font-family: 'Raleway', sans-serif;
-    font-size: 18px;
+    font-size: 18px; 
 }
 
-/* Styles for navbar */
+/*-------------- Styles for navbar --------------*/
 
  .navbar{
     background-color: #444;
-}
-
-.navbar-brand{
-    margin-left:10em;
-}
-
-#navbarNav:last-child{
-    margin-right: 10em;
 }
 
 .navbar-toggler{
@@ -25,7 +17,8 @@
     color: #c2c2c2;
 }
 
-/* Section Form */
+/*-------------- Section Form --------------*/
+
 .sectionForm{
     background-image: url('../img/form-background.jpg');
     background-size: cover;
@@ -87,6 +80,10 @@
     font-weight: 700;
 }
 
+.btn{
+    margin: 2em 0em;
+}
+
 .btnOrange{
     background-color: #e38f42;
     border-color: #e38f42;
@@ -106,9 +103,9 @@
     margin-left: 0.1em; 
 }
 
-/* Section Inspire */
+/*-------------- Section Inspire --------------*/
 
-.inspire{
+.sectionInspire{
     padding: 5em 0em;
 }
 
@@ -128,7 +125,7 @@
     color: #e38f42;
 }
 
-/* Footer */
+/*-------------- Footer --------------*/
 
 footer{
     padding: 5em 0em;
